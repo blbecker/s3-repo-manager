@@ -12,12 +12,12 @@ func main() {
 	app := &cli.App{
 		Commands: []*cli.Command{
 			{
-				Name: "rpm",
+				Name:  "rpm",
 				Usage: "manage rpm repository",
 				Subcommands: []*cli.Command{
 					{
-						Name: "upload",
-						Usage: "upload a package",
+						Name:  "upload",
+						Usage: "upload a rpmpackage",
 						Action: func(c *cli.Context) error {
 							fmt.Println("Uploading an rpm")
 							return nil
@@ -26,12 +26,12 @@ func main() {
 				},
 			},
 			{
-				Name: "deb",
+				Name:  "deb",
 				Usage: "manage deb repository",
 				Subcommands: []*cli.Command{
 					{
-						Name: "upload",
-						Usage: "upload a package",
+						Name:  "upload",
+						Usage: "upload a rpmpackage",
 						Action: func(c *cli.Context) error {
 							fmt.Println("Uploading a deb")
 							return nil

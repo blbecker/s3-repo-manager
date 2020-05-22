@@ -7,7 +7,7 @@ import (
 )
 
 func TestMarshalPrimary(t *testing.T) {
-	Convey("repomd should parse", t, func() {
+	Convey("primary metadata should parse", t, func() {
 		metadata, err := FromFile("../test_files/primary.xml.gz")
 		So(err, ShouldBeNil)
 		So(metadata, ShouldNotBeNil)

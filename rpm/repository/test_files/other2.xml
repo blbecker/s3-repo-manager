@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<otherdata xmlns="http://linux.duke.edu/metadata/other" packages="1">
+  <package arch="x86_64" name="jake" pkgid="ea721867eb0389e28bcd32e2deef7d4472c6ced8">
+    <version epoch="87" rel="3.el6" ver="1.0"/>
+  </package>
+</otherdata>

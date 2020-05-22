@@ -13,7 +13,7 @@ type Metadata struct {
 	Xmlns    string   `xml:"xmlns,attr"`
 	Rpm      string   `xml:"rpm,attr"`
 	Packages string   `xml:"packages,attr"`
-	Package  Package  `xml:"package"`
+	Package  Package  `xml:"rpmpackage"`
 }
 
 type Package struct {
@@ -56,7 +56,7 @@ type Size struct {
 	Text      string `xml:",chardata"`
 	Archive   string `xml:"archive,attr"`
 	Installed string `xml:"installed,attr"`
-	Package   string `xml:"package,attr"`
+	Package   string `xml:"rpmpackage,attr"`
 }
 
 type PackageLocation struct {
